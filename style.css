@@ -76,8 +76,12 @@ h2 {
 
 .about-right {
     flex: 2;
-    text-align: left;
+    text-align: justify;
     text-decoration-color: gray;
+}
+
+.about-right h1{
+    margin-bottom: 5px;
 }
 
 .profile-photo {
@@ -161,7 +165,12 @@ h2 {
 }
 
 .internship-details ul {
-    margin-top: 10px;
+    margin-left: 15px;
+    text-align: justify;
+}
+
+.internship-details p:nth-of-type(2) {
+    margin-bottom: 15px; /* Adds space after the "Role" line */
 }
 
 /* Projects Section */
@@ -215,11 +224,17 @@ h2 {
     width: 200px;
     height: 150px;
     object-fit: cover;
+    margin-left: 30px;
 }
 
 .activity-body {
-    padding: 15px;
+    padding: 30px;
     flex: 1;
+    text-align: justify;
+}
+
+.activity-body ul{
+    margin-left: 15px;
 }
 
 .activity-body h3 {
@@ -247,4 +262,3 @@ footer {
     margin-top: 40px;
     font-size: 0.9em;
 }
-
