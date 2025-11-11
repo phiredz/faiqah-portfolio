@@ -51,28 +51,6 @@ section {
     margin: 0 auto;
 }
 
-/* Fade-in when scrolling down */
-.fade-in-down {
-  opacity: 1;
-  transform: translateY(0);
-}
-
-/* Start position for downward scroll animation */
-.fade-section.down {
-  transform: translateY(50px);
-}
-
-/* Fade-in when scrolling up */
-.fade-in-up {
-  opacity: 1;
-  transform: translateY(0);
-}
-
-/* Start position for upward scroll animation */
-.fade-section.up {
-  transform: translateY(-50px);
-}
-
 h2 {
     font-size: 1.8em;
     margin-bottom: 20px;
@@ -269,3 +247,4 @@ footer {
     margin-top: 40px;
     font-size: 0.9em;
 }
+
